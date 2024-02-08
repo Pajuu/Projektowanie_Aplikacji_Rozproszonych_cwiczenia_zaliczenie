@@ -36,7 +36,7 @@ while True:
     except AssertionError:
         print("Wpisz tak lub nie!!")
 
-url2 = f"https://jsonplaceholder.typicode.com/users//{ID}"
+url2 = f"https://jsonplaceholder.typicode.com/photos/{ID}"
 response2 = requests.get(url2)
 
 print(f"Zdjęcie z albumu o podanym ID: {response2.json()['url']}")

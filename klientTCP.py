@@ -19,5 +19,5 @@ def send_request(request):
 
 if __name__ == "__main__":
     id = 2
-    request = get_photos_id(id)
+    request = get_user_by_id(id)
     send_request(request)
